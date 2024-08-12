@@ -6,7 +6,7 @@ import jakarta.persistence.ManyToOne;
 import java.io.Serializable;
 
 @Embeddable
-public class FavouriteRelationshipEntityKey implements Serializable {
+public class FavoriteRelationshipEntityKey implements Serializable {
 
     @ManyToOne
     public ArticleEntity article;

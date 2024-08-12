@@ -5,10 +5,10 @@ import jakarta.persistence.*;
 
 @Entity(name = "FAVORITE_RELATIONSHIP")
 @Cacheable
-public class FavouriteRelationshipEntity extends PanacheEntityBase {
+public class FavoriteRelationshipEntity extends PanacheEntityBase {
 
     @EmbeddedId
-    public FavouriteRelationshipEntityKey primaryKey;
+    public FavoriteRelationshipEntityKey primaryKey;
 
     @ManyToOne
     @JoinColumn(insertable = false, updatable = false)

@@ -37,6 +37,6 @@ public class ArticleEntity extends PanacheEntityBase {
     public List<TagRelationshipEntity> tags;
 
     @OneToMany(mappedBy = "article", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    public List<FavouriteRelationshipEntity> favorites;
+    public List<FavoriteRelationshipEntity> favorites;
 
 }
